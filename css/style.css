@@ -192,46 +192,7 @@ table.oui-form-poup tr td {
 }
 @media only screen
 and (max-width:480px){
-#popup_box h1 {
-	text-align: center;
-	font-weight: 700;
-	font-style: normal;
-	font-size: 38px;
-	line-height: 36px;
-}
-.oui-form-poup {
-	width: 100%;
-}
-table.oui-form-poup tr td {
-	text-align: left;
-}
-.oui-form-poup input[type="text"],
-.oui-form-poup input[type="email"] {
-	width: 100%;
-}
-.oui-form-poup tr td.td-input-submit {
-	text-align: center;
-	padding-top: 10px;
-}
-.fancybox-skin {
-	padding: 50px 50px 40px!important;
-}
-.fancybox-inner {
-	width: 100% !important;
-}
 
-#bio_ep {
-	width: 560px !important;
-	height: 410px !important;
-	padding: 50px 50px 30px!important;
-	margin-left: 0;
-}
-#bio_ep_close {
-	top: 0;
-}
-#bio_ep_bg {
-	opacity: 0.8 !important;
-}
 
 .wrapper .a{-webkit-flex:1 0 auto;}
 .wrapper .b{-webkit-flex:1 0 auto;}
