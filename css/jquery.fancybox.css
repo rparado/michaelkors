@@ -98,13 +98,14 @@
 }
 
 .fancybox-close {
-	position: absolute;
-	top: -18px;
-	right: -18px;
-	width: 36px;
-	height: 36px;
-	cursor: pointer;
-	z-index: 8040;
+	background: url(../images/close-icon.png) no-repeat;
+    position: absolute;
+    top: 12px;
+    right: 8px;
+    width: 24px;
+    height: 18px;
+    cursor: pointer;
+    z-index: 8040;
 }
 
 .fancybox-nav {
