@@ -141,6 +141,10 @@ table{width:100%;}
 #popup_box {
 	display: none;
 }
+#popup_box h1 {
+	text-align: center;
+	font-weight: 700;
+}
 .oui-form-poup {
 	width: 100%;
 }
