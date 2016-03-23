@@ -138,12 +138,18 @@ table{width:100%;}
 .popup_box{width:100%;left:0;margin-left:0;}
 }
 
-#popup_box {
-	display: none;
-}
 #popup_box h1 {
 	text-align: center;
 	font-weight: 700;
+	font-style: normal;
+	font-size: 21px;
+	margin-bottom: 4px;
+	line-height: 36px;
+	m,margin-bottom: 20px;
+}
+#popup_box p {
+	font-size: 14px;
+	line-height: 17px;
 }
 .oui-form-poup {
 	width: 100%;
@@ -155,10 +161,79 @@ table.oui-form-poup tr td {
 .oui-form-poup input[type="email"] {
 	width: 100%;
 }
+.oui-form-poup tr td.td-input-submit {
+	text-align: center;
+	padding-top: 10px;
+}
+.fancybox-skin {
+	padding: 50px 50px 40px!important;
+}
+.fancybox-inner {
+	width: 100% !important;
+}
 
+#bio_ep {
+    width: 300px !important;
+    height: 300px!important;
+    padding: 15px!important;
+    margin-left: -17px;
+}
+#bio_ep_close {
+	top: 0;
+}
+#bio_ep_bg {
+	opacity: 0.8 !important;
+}
 
+@media screen and (min-width: 480px) {
+	#bio_ep {
+		margin-left: 0;
+	}
+}
 @media only screen
-and (max-width:480px){.wrapper .a{-webkit-flex:1 0 auto;}
+and (max-width:480px){
+#popup_box h1 {
+	text-align: center;
+	font-weight: 700;
+	font-style: normal;
+	font-size: 38px;
+	line-height: 36px;
+}
+.oui-form-poup {
+	width: 100%;
+}
+table.oui-form-poup tr td {
+	text-align: left;
+}
+.oui-form-poup input[type="text"],
+.oui-form-poup input[type="email"] {
+	width: 100%;
+}
+.oui-form-poup tr td.td-input-submit {
+	text-align: center;
+	padding-top: 10px;
+}
+.fancybox-skin {
+	padding: 50px 50px 40px!important;
+}
+.fancybox-inner {
+	width: 100% !important;
+}
+
+#bio_ep {
+	width: 560px !important;
+	height: 410px !important;
+	padding: 50px 50px 30px!important;
+	margin-left: 0;
+}
+#bio_ep_close {
+	top: 0;
+}
+#bio_ep_bg {
+	opacity: 0.8 !important;
+}
+
+.wrapper .a{-webkit-flex:1 0 auto;}
 .wrapper .b{-webkit-flex:1 0 auto;}
 #mkmusthave{margin-top:-30px;}
 #product{margin-top:-50px;}
@@ -196,11 +271,58 @@ and (orientation:portrait){.wrapper .a{-webkit-flex:1 0 auto;}
 .wrapper .b{-webkit-flex:1 0 auto;}
 }
 @media only screen
-and (min-width:960px){.b{margin-left:-40px;}
+and (min-width:960px){
+#popup_box h1 {
+	text-align: center;
+	font-weight: 700;
+	font-style: normal;
+	font-size: 36px;
+	line-height: 36px;
+	margin-bottom: 30px;
+}
+.oui-form-poup {
+	width: 100%;
+}
+table.oui-form-poup tr td {
+	text-align: left;
+}
+.oui-form-poup input[type="text"],
+.oui-form-poup input[type="email"] {
+	width: 100%;
+}
+.oui-form-poup tr td.td-input-submit {
+	text-align: center;
+	padding-top: 10px;
+}
+.fancybox-skin {
+	padding: 50px 50px 40px!important;
+}
+.fancybox-inner {
+	width: 100% !important;
+}
+#popup_box p {
+	font-size: 19px;
+	line-height: 28px;
+}
+#bio_ep {
+	width: 560px !important;
+	height: 400px !important;
+	padding: 50px 50px 30px!important;
+	margin-left: 0;
+}
+#bio_ep_close {
+	top: 0;
+}
+#bio_ep_bg {
+	opacity: 0.8 !important;
+}
+.b{margin-left:-40px;}
 #mkmusthave h1{line-height:55px;margin-bottom:-1px;}
 }
 @media only screen
-and (min-width:1224px){#mkmusthave{margin-top:-9px;}
+and (min-width:1224px){
+
+#mkmusthave{margin-top:-9px;}
 #mkmusthave h1{line-height:55px;margin-bottom:-1px;}
 .b{margin-left:-40px;}
 }
