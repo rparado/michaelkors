@@ -138,6 +138,16 @@ table{width:100%;}
 .popup_box{width:100%;left:0;margin-left:0;}
 }
 
+.oui-form-poup {
+	width: 100%;
+}
+table.oui-form-poup tr td {
+	text-align: left;
+}
+.oui-form-poup input[type="text"],
+.oui-form-poup input[type="email"] {
+	width: 100%;
+}
 
 
 @media only screen
