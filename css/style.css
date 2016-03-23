@@ -138,6 +138,9 @@ table{width:100%;}
 .popup_box{width:100%;left:0;margin-left:0;}
 }
 
+#popup_box {
+	display: none;
+}
 .oui-form-poup {
 	width: 100%;
 }
